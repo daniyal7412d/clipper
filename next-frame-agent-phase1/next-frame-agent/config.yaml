@@ -1,0 +1,19 @@
+channel:
+  name: "Next Frame"
+  handle: "@Next_frame-p1q"
+  url: "https://www.youtube.com/@Next_frame-p1q"
+schedule:
+  timezone: "Asia/Karachi"     # 4:00 AM PKT = 23:00 UTC (set in .github/workflows/daily.yml)
+videos_per_day: 4              # max 5 (YouTube free upload quota)
+languages: ["hi", "en"]
+video:
+  min_seconds: 30
+  max_seconds: 60
+  size: "1080x1920"
+palette:
+  cyan: "#22d3ee"
+  magenta: "#e879f9"
+  green: "#4ade80"
+  bg: "#0b0f14"
+upload:
+  privacy: "private"           # you publish from YouTube Studio
